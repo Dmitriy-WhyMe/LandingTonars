@@ -118,7 +118,7 @@
 				a: "4400 кг",
 				b: "5500 кг",
 				c: "6600 кг",
-				correct: "b",
+				correct: "c",
 			},
 		];
 		
@@ -177,6 +177,7 @@
 				}
 				else{
 					quiz.innerHTML = `<h2>Спасибо за пройденный опрос</h2>
+					<form action=""><input type="text" placeholder="Полное имя"><input type="tel" placeholder="Телефон"><a href="#">Отправить</a></form>
 					<button onclick="location.reload()">Пройти заново</button>
 					`;
 				}
